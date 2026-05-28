@@ -1,0 +1,94 @@
+body{
+    background-color: violet;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;  /* este margenes por fuera de las imagenes */
+    padding: 0; /* este lo vamos checar despues porque es para los margenes por dentro */
+    line-height: 1.5;  /* para interlineado  11.6 */
+}
+
+header{
+    background-color:violet;
+    color: beige;
+    text-align: center;  /* para alinear texto o imagen*/
+    padding: 20px 30px;
+    border-bottom: 5px solid palevioletred;
+}
+header .logo{    /* header espacio punto nombre de la class, para modificar mi imagen de header*/
+max-width: 200px;
+margin-bottom: 10px;  /*Agrega espacio debajo del elemento*/
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+header h1{
+    margin:0;
+    font-size: 2.8rem;
+    text-transform: uppercase; /* para poner mi letras en mayusculas*/
+    letter-spacing: 5px; /* Agrega separación entre letras.*/
+}
+
+header p{
+    color: black;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 0px; /* Agrega espacio arriba del elemento. 5PX*/
+}
+
+main{
+    max-width: 800px; 
+    margin: 40px auto; /*40*/
+    padding: 0 20px;
+}
+
+main section{
+    background-color: pink;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border-left: 5px solid violet;
+    box-shadow: 0 4px 10px black(0,0,0,0.7);
+    overflow: hidden; /* para que si mi imagen esta derramda se quede de una manera bien*/
+}
+
+main section h2{
+    color: white;
+    margin-top: 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+main section img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#carouselExample{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+footer ul{
+    list-style-type: none;
+    color: white;
+    padding-left: 20px;
+}
+
+footer ul li{
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: black;
+    font-size: 0.9rem;
+    border-top: 1 px solid black;
+    margin-top: 50px;
+
+}
